@@ -1,0 +1,30 @@
+.banner_background{
+	background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 200px;
+	position:relative;
+}
+@media (max-width: 991px){
+.banner_background {
+    min-height: 180px;
+}
+}
+@media (max-width: 640px){
+.banner_background {
+    min-height: 170px;
+}
+}
+@media (max-width: 480px){	
+.banner_background {
+    min-height: 150px;
+}
+}
+@media (max-width: 414px){
+.banner_background {
+    min-height: 120px;
+}
+}
